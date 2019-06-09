@@ -19,7 +19,7 @@ class App extends React.Component{
   }
 
   onSearch = (title) => {
-    axios.get(`http://api.themoviedb.org/3/search/movie?query=${title}&api_key=9adbf9b696ac935f8dedfac5c6e8948b`)
+    axios.get(`https://api.themoviedb.org/3/search/movie?query=${title}&api_key=9adbf9b696ac935f8dedfac5c6e8948b`)
       .then(res => {
         console.log(res.data.results)
         this.setState({ movies: res.data.results })
