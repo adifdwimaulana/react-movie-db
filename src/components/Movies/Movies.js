@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 
 export class Movies extends Component {
     render() {
-        const poster_url = 'http://image.tmdb.org/t/p/w185'
+        const poster_url = 'https://image.tmdb.org/t/p/w185'
         return (
             this.props.movies.map((movie) => (
               <table key={movie.id} style={{ marginLeft: 10, marginRight: 10}}>
