@@ -5,7 +5,7 @@ const Header = () => {
         return (
             <div>
                 <header style={headerStyle}>
-                    <img src={logo} alt="logo" style={{ width: 50 }} />
+                    <img src={logo} alt="logo" style={{ width: 50, height: 50 }} />
                     <h1 style={{ marginLeft: '5px' }}>The MovieDb App</h1>
                 </header>
             </div>
