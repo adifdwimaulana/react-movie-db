@@ -1,6 +1,3 @@
-import React, { Component } from "react";
-import PropTypes from "prop-types";
-
 const poster_url = "https://image.tmdb.org/t/p/w185";
 
 function Movies({ movies }) {
